@@ -11,7 +11,7 @@ const SignIn = () => {
     const navigate = useNavigate();
     const navigateToContacts = () => {
       // 👇️ navigate to /contacts
-      navigate('/dashboard');
+      navigate('/contacts');
     };
 
     const signIn = (e) =>{
@@ -19,7 +19,6 @@ const SignIn = () => {
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             console.log(userCredential)
-            navigateToContacts()
         }).catch((error) => {
             console.log(error)
         })

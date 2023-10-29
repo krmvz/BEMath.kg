@@ -5,7 +5,6 @@ import AuthDetails from './components/AuthDetails';
 import {BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import React from 'react';
 import Dashboard from './components/dashboard/Dashboard';
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

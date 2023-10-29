@@ -1,8 +1,10 @@
 import React from 'react'
+import Header from '../header/header';
 
 const Dashboard = () => {
   return (
-    <div className='btn btn-primary'>
+    <div>
+        <Header/>
       Dashboard
     </div>
   )

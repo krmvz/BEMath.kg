@@ -1,8 +1,11 @@
 import React from 'react'
+import NavScrollExample from '../header/header';
+
 
 const Dashboard = () => {
   return (
-    <div className='btn btn-primary'>
+    <div>
+        <NavScrollExample/>
       Dashboard
     </div>
   )

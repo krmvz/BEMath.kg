@@ -19,7 +19,7 @@ const SignIn = () => {
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             console.log(userCredential)
-            navigateToContacts()
+            
         }).catch((error) => {
             console.log(error)
         })

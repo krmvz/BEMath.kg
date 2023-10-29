@@ -1,5 +1,5 @@
 // import { useState } from "react"
-import { useNavigate} from 'react-router-dom';
+import {Routes, Route, useNavigate} from 'react-router-dom';
 import React, {useState} from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../../firebase';
@@ -14,12 +14,17 @@ const SignIn = () => {
       navigate('/dashboard');
     };
 
+    const navigateHome = () => {
+      // 👇️ navigate to /
+      navigate('/');
+    };
+    
     const signIn = (e) =>{
         e.preventDefault();
         signInWithEmailAndPassword(auth, email, password)
         .then((userCredential) => {
             console.log(userCredential)
-            navigateToContacts()
+            navigate();
         }).catch((error) => {
             console.log(error)
         })

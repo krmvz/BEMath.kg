@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../header/header';
+import { Offcanvas } from 'bootstrap';
 
 const Dashboard = () => {
   return (
-    <div className='btn btn-primary'>
+    <div>
+        <Offcanvas/>
       Dashboard
     </div>
   )
