@@ -1,0 +1,24 @@
+.sign-in-container {
+  background-image: url("../../images/bgimg.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.sign-in-container form {
+  background-color: white;
+  padding: 100px;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 5px 10px 5px gray;
+}
+.sign-in-container form img {
+  border-radius: 10px;
+  height: 200px;
+}
+.sign-in-container form h1 {
+  color: green;
+}/*# sourceMappingURL=sign_20231029164254.css.map */

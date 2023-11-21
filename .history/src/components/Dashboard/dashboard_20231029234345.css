@@ -1,0 +1,23 @@
+.main_page .dashboard {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.main_page .dashboard .set_courses {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 2px solid gray;
+  border-radius: 12px;
+  padding: 5px;
+}
+.main_page .dashboard .set_courses .card {
+  width: 18rem;
+}
+.main_page .dashboard .set_courses .card img {
+  height: 150px;
+  width: 18rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=dashboard_20231029234345.css.map */

@@ -1,0 +1,22 @@
+.main_page{
+    .dashboard{
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        .set_courses{
+            background-color: red;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            border-radius: 10px solid;
+            .card{
+                width: 18rem;
+                img{
+                    height: 150px;
+                    width: 18rem;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

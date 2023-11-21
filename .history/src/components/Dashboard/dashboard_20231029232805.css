@@ -1,0 +1,8 @@
+.main_page .dashboard {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.main_page .dashboard .set_courses border .card {
+  width: 15rem;
+}/*# sourceMappingURL=dashboard_20231029232805.css.map */

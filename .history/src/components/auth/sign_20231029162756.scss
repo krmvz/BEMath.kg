@@ -1,0 +1,23 @@
+.sign-in-container{
+    background-image: url('../../images/bgimg.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    form{
+        background-color: white;
+        padding: 50px;
+        border: 1px solid;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 10px 10px 5px lightblue;
+        img{
+            border-radius: 10px;
+            height: 100px;
+        }
+        h1{
+            color: green;
+        }
+    }
+}

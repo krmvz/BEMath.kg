@@ -1,0 +1,11 @@
+.sign-in-container{
+    background-image: ('../../images');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    form{
+        h1{
+            color: green;
+        }
+    }
+}
