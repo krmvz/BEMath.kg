@@ -1,1 +1,71 @@
-/*# sourceMappingURL=biology.css.map */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+.video-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.video-container h2 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+.video-container .player-wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+.video-container p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #2c3e50;
+}
+.video-container .description-toggle {
+  cursor: pointer;
+  color: #e74c3c;
+}
+.video-container .description-toggle:hover {
+  text-decoration: underline;
+}
+.video-container .description {
+  display: none;
+  margin-top: 15px;
+}
+.video-container .description.visible {
+  display: block;
+}
+.video-container .homework-section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.video-container .homework-section textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.video-container .homework-section input {
+  margin-bottom: 10px;
+}
+.video-container .homework-section button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.video-container .homework-section button:hover {
+  background-color: #2980b9;
+}
+.video-container .homework-section .submitted-homework {
+  margin-top: 10px;
+  color: #27ae60;
+}/*# sourceMappingURL=biology.css.map */

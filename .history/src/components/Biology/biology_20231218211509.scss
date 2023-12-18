@@ -53,43 +53,4 @@ body {
       display: block;
     }
   }
-  // biology.scss
-
-// ... (previous styles)
-
-.homework-section {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-  
-    textarea {
-      margin-bottom: 10px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-  
-    input {
-      margin-bottom: 10px;
-    }
-  
-    button {
-      background-color: #3498db;
-      color: #fff;
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-  
-      &:hover {
-        background-color: #2980b9;
-      }
-    }
-  
-    .submitted-homework {
-      margin-top: 10px;
-      color: #27ae60;
-    }
-  }
-  
 }
