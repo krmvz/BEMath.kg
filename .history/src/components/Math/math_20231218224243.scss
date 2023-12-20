@@ -1,0 +1,40 @@
+// $study-blue: #3498db;
+
+nav {
+    // background-color: #3498db;
+    .math-container {
+        max-width: 1200px;  // Adjust the maximum width as needed
+        margin: 0 auto;     // Center the container horizontally
+        padding: 20px;      // Add some padding for spacing
+      
+        // Add more styling as needed
+        background-color: #f7f7f7;  // Example background color
+        border: 1px solid #ddd;    // Example border
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  // Example box shadow
+        
+      
+    ul {
+        list-style: none;
+        padding: 0;
+        background-color: #3498db;
+        overflow: hidden;
+
+        li {
+        float: left;
+
+        a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+            &:hover {
+            background-color: #ddd;
+            color: black;
+            }
+        }
+    }
+}
+}
+  

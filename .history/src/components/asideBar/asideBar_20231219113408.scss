@@ -1,0 +1,36 @@
+// asideBar.scss
+
+.aside-bar {
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 60px;  // Adjust as needed based on your header height
+    width: 200px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  
+    &:hover {
+      color: #007bff;
+    }
+  }
+  

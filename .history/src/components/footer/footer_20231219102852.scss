@@ -1,0 +1,54 @@
+// Footer.scss
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+
+    a {
+      color: #fff;
+      font-size: 1.5rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #007bff; // Change the color on hover
+      }
+    }
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .footer-section {
+      flex: 1;
+      padding: 0 20px;
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  .footer-bottom {
+    height: 15px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #555;
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}
