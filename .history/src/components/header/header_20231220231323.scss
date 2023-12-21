@@ -1,0 +1,46 @@
+// Header.scss
+
+.header-container {
+  background-color: #2ecc71;  // Updated background color
+  color: #fff;  // Set your desired text color
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.5em;
+      font-weight: bold;
+
+      &:hover {
+        color: #ecf0f1;  // Change color on hover
+      }
+    }
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+
+      li {
+        margin-right: 20px;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-weight: bold;
+
+          &:hover {
+            color: #ecf0f1;  // Change color on hover
+          }
+        }
+      }
+    }
+  }
+}

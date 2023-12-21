@@ -1,0 +1,68 @@
+/* english.scss */
+
+.video-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+  }
+  
+  .player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .description {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .description-toggle {
+    cursor: pointer;
+    color: #007bff;
+    margin-top: 10px;
+  }
+  
+  .visible {
+    display: block;
+  }
+  
+  .homework-section {
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submitted-homework {
+    margin-top: 10px;
+    color: #28a745;
+  }
+  
+  .upload-time {
+    margin-top: 10px;
+    color: #333;
+  }
+  

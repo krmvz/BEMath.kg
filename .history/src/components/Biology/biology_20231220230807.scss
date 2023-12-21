@@ -1,0 +1,135 @@
+// biology.scss
+
+$primary-color: #3498db;
+$background-color: #ecf0f1;
+$text-color: #2c3e50;
+$accent-color: #e74c3c;
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.video-container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  h2 {
+    color: $primary-color;
+    margin-bottom: 10px;
+  }
+
+  .player-wrapper {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: $text-color;
+  }
+
+  .description-toggle {
+    cursor: pointer;
+    color: $accent-color;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .description {
+    display: none;
+    margin-top: 15px;
+
+    &.visible {
+      display: block;
+    }
+  }
+  // biology.scss
+
+// ... (previous styles)
+
+.homework-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  
+    textarea {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  
+    input {
+      margin-bottom: 10px;
+    }
+  
+    button {
+      background-color: #3498db;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  
+      &:hover {
+        background-color: #2980b9;
+      }
+    }
+  
+    .submitted-homework {
+      margin-top: 10px;
+      color: #27ae60;
+    }
+  }
+  
+}
+// biology.scss
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 60px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: width 0.3s ease;
+
+  .menu-icon {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  &.shifted {
+    width: 200px;
+
+    .menu-icon {
+      margin-left: 10px;
+    }
+  }
+}
+
+.content {
+  transition: margin-left 0.3s ease;
+  margin-left: 0;
+
+  &.shifted {
+    margin-left: 200px;
+  }
+
+  // Rest of your existing styles for the content section
+}
+

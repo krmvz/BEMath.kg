@@ -5,6 +5,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: background-color 0.3s ease;
+}
+.header-container:hover {
+  background-color: #2c3e50;
 }
 .header-container .logo a {
   color: #fff;
@@ -13,7 +17,7 @@
   font-weight: bold;
 }
 .header-container .logo a:hover {
-  color: #ecf0f1;
+  color: #d35400;
 }
 .header-container nav ul {
   list-style: none;
@@ -30,5 +34,5 @@
   font-weight: bold;
 }
 .header-container nav ul li a:hover {
-  color: #ecf0f1;
+  color: #d35400;
 }/*# sourceMappingURL=header.css.map */
